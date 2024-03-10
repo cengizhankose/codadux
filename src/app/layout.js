@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
               <Sidebar />
               <div className="flex flex-col">
                 <Navbar />
-                {children}
+                <div className="p-6">{children}</div>
               </div>
             </div>
           </ThemeProvider>
