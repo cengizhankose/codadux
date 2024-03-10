@@ -48,7 +48,7 @@ export function Sidebar() {
                   ? "bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-50"
                   : "text-gray-500 dark:text-gray-400"
               }`}
-              href="/home"
+              href="/"
             >
               <HomeIcon className="h-4 w-4" />
               Home
